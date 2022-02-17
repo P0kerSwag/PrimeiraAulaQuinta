@@ -1,11 +1,17 @@
 import carro from '../imagens/carro.jpg';
+import styled from "styled-components";
 
 const Home = ()=>{
     return(
         <>
-            <img src={carro}/>
+            <Carro src={carro}/>
         </>
     );
 }
 
 export default Home;
+
+const Carro = styled.img`
+width: 600px;
+height: 400px;
+`;

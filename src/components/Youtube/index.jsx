@@ -1,11 +1,17 @@
 import youtube from '../imagens/youtube.jpg';
+import styled from "styled-components";
 
 const Youtube = ()=>{
     return(
         <>
-            <img src={youtube}/>
+            <Youtubeimg src={youtube}/>
         </>
     );
 }
 
-export default Youtube;
+export default Youtube; 
+
+const Youtubeimg = styled.img`
+width: 500px;
+height: 500px;
+`;
