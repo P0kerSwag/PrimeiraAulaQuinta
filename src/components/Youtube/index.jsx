@@ -5,6 +5,10 @@ const Youtube = ()=>{
     return(
         <>
             <Youtubeimg src={youtube}/>
+
+            <p>
+                Opa segue meu link do canal aqui: https://www.youtube.com/channel/UCtQbShZTCDJcEAgMLsEDcQg
+            </p>
         </>
     );
 }

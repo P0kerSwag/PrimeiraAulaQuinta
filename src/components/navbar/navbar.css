@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
 .navbar-site{
     background-color: rgb(183, 177, 243,);
 }
 
 .navbar-brand{
+    font-family: 'Great Vibes', cursive;
     color: rgb(52, 84, 173);
     font-size: 25px;
     text-decoration: none;
@@ -20,11 +24,13 @@
 }
 
 .nav-link{
+    font-family: 'Great Vibes', cursive;
     color: rgb(199, 27, 15);
     font-size: 25px;
     text-decoration: none;
     padding-right: 30px;
     padding-left: 15px;
+    color: white;
 }
 
 .nav-link disabled{
