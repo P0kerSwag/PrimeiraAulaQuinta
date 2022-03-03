@@ -5,6 +5,10 @@ const Home = ()=>{
     return(
         <>
             <Carro src={carro}/>
+
+            <p>
+                carro muito lindw >B)
+            </p>
         </>
     );
 }
