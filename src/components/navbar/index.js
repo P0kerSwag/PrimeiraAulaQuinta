@@ -19,7 +19,7 @@ function Navbar (){
                   <Link to="youtube" class="nav-link">Youtubekkkk</Link>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <Link to="discord" class="nav-link">Discord</Link>
                 </li>
                 <li class="nav-item">
                   <a class="nav-link disabled">Disabled</a>
